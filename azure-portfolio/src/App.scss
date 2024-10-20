@@ -1,0 +1,57 @@
+@import './custom.scss';
+
+.container-fluid > .background-img{
+    position: absolute;
+    size: 100vh;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://wallpapercave.com/wp/wp7583080.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 85%;
+    z-index: -1;
+}
+.row-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33vh;
+    padding-top: 2%;
+  }
+.underNav{
+    padding-top: 60px; /*It would not work with bootstrap styling to get under the nav. At least not with the size I want.*/
+}
+aside{
+    opacity: 80%;
+}
+
+.mainDiv{
+    color: aliceblue;
+}
+
+.opaque-black-bg{
+    background-color: rgba(0,0,0,1);
+}
+
+.mainRow {
+    height: 50%;
+}
+
+.mainRow img {
+    height: 100%;
+    object-fit: cover;
+    width: auto;
+}
+
+.custom-fade{
+    transition: opacity 1s ease !important;
+}
+
+.modal-content{
+    color:black;
+}
+
+

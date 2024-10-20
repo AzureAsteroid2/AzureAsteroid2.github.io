@@ -1,0 +1,38 @@
+$square-size: 20vw;  /* One-third of the viewport width */
+$square-bg-color: #f0f0f0;
+$text-color: #333;
+$hover-scale: 1.05;
+$box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+$transition-duration: 0.3s;
+
+.square {
+  width: $square-size;
+  height: $square-size;
+  background-color: $square-bg-color;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: $box-shadow;
+  transition: transform $transition-duration ease;
+
+  &:hover {
+    transform: scale($hover-scale);
+  }
+
+  .square-image {
+    width: 75%; /* Image takes up 60% of the square's width */
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 4px;
+  }
+
+  .square-text {
+    font-size: 1.2rem;
+    color: $text-color;
+    text-align: center;
+    margin: 0;
+  }
+}

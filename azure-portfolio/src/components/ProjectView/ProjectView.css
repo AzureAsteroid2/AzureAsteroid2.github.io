@@ -1,0 +1,29 @@
+/* One-third of the viewport width */
+.square {
+  width: 20vw;
+  height: 20vw;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.square:hover {
+  transform: scale(1.05);
+}
+.square .square-image {
+  width: 75%; /* Image takes up 60% of the square's width */
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+.square .square-text {
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+  margin: 0;
+}/*# sourceMappingURL=ProjectView.css.map */
