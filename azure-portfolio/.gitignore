@@ -8,7 +8,8 @@
 # testing
 /coverage
 
-
+# production
+/build
 
 # misc
 .DS_Store
@@ -206,7 +207,7 @@ Temporary Items
 ### ReactNative.Android Stack ###
 # Gradle files
 .gradle/
-
+build/
 
 # Local configuration file (sdk path, etc)
 local.properties
